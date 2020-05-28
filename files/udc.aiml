@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I dont have an answer for that.</template>
+  </category>
+  <category>
+    <pattern>HELLO *</pattern>
+    <template>how are you. Whats your name</template>
+  </category>
+  <category>
+        <pattern>MY NAME IS * *</pattern>
+        <template>Nice to meet you <star/>. How can I help you? </template>
+  </category>
+</aiml>
